@@ -32,7 +32,16 @@
     "react-native-iphone-x-helper-2": "^1.0.0",
     "react-native-maps": "^0.27.1",
     "react-native-maps-directions": "^1.8.0",
-    "react-native-notifications": "^3.3.0"
+    "react-native-notifications": "^3.3.0",
+    "react-native-permissions": "^2.1.5",
+    "react-native-picker-view": "^1.0.7",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.7.0",
+    "react-native-select-multiple": "^2.1.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-video": "^5.1.0-alpha8",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
