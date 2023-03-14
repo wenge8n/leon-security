@@ -194,7 +194,6 @@
 				8CFED8AED0162D3B3ADDBEC3 /* Pods-LeonSecurity-tvOSTests.debug.xcconfig */,
 				0AED39E1A29E7C0961C0343F /* Pods-LeonSecurity-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
