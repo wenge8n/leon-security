@@ -6,6 +6,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {navigationRef} from './NavigationService';
 import Login from '../screens/Login';
 import Home from '../screens/Home';
+import BookingHistoryScreen from '../screens/BookingHistoryScreen';
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,10 @@ const App = () => {
         <StatusBar barStyle="dark-content" />
 
         <Stack.Navigator>
+          <Stack.Screen
+            name="BookingHistoryScreen"
+            component={BookingHistoryScreen}
+          />
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>

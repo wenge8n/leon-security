@@ -10,9 +10,9 @@ import {
   Alert,
   ScrollView,
 } from 'react-native';
-import history_back from './../../img/history_back.png';
-import backImg from '../../img/back.png';
-import time from '../../img/time.png';
+import history_back from '../assets/images/history_back.png';
+import backImg from '../assets/images/back.png';
+import time from '../assets/images/time.png';
 import {ifIphoneX} from 'react-native-iphone-x-helper-2';
 import {strings} from '../../i18n';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
@@ -50,7 +50,7 @@ class BookingHistoryScreen extends Component {
           }
         })
         .catch(error => {
-          Alert.alert('Ouch...', responseJson.error.text);
+          Alert.alert('Ouch...', error.toString());
         });
     });
   }
