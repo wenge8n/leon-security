@@ -14,7 +14,7 @@ import history_back from '../assets/images/history_back.png';
 import backImg from '../assets/images/back.png';
 import time from '../assets/images/time.png';
 import {ifIphoneX} from 'react-native-iphone-x-helper-2';
-import {strings} from '../../i18n';
+import {strings} from '../assets/i18n';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 
 var {width, height} = Dimensions.get('window');
@@ -91,7 +91,7 @@ class BookingHistoryScreen extends Component {
         marginBottom: 10,
         marginLeft: 40,
         marginRight: 40,
-        fontFamily: 'AvenirNextCyr-Bold',
+        // fontFamily: 'AvenirNextCyr-Bold',
         fontSize: 22,
       },
       bottonBackStyle: {
@@ -128,7 +128,7 @@ class BookingHistoryScreen extends Component {
       price: {
         color: '#4B505A',
         fontSize: 20,
-        fontFamily: 'AvenirNextCyr-Bold',
+        // fontFamily: 'AvenirNextCyr-Bold',
       },
       agentName: {
         color: '#777C80',
