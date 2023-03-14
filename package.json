@@ -23,7 +23,14 @@
     "react-native-confirmation-code-field": "^6.5.1",
     "react-native-datepicker": "^1.7.2",
     "react-native-event-source": "^1.1.0",
-    "react-native-gesture-handler": "^2.8.0"
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-google-places-autocomplete": "^1.7.2",
+    "react-native-haptic-feedback": "^1.11.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-iphone-x-helper-2": "^1.0.0",
+    "react-native-maps": "^0.27.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
